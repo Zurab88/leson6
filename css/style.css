@@ -1,0 +1,38 @@
+header {
+    background-color: antiquewhite;
+}
+.logo {
+    width: 200px;
+    height: 150px;
+    object-fit: contain;
+    background-color: red;
+    float: right;
+}
+.nav-ul {
+    display: inline-block;
+    float: left;
+    background-color: burlywood;
+}
+.nav-li {
+    display: inline-block;
+}
+.clear {
+    clear: both;
+}
+.float::after {
+    content: "";
+    display: block;
+    clear: left;
+}
+.articleimage {
+    float: left;
+    height: 200px;
+    width: 250px;
+    object-fit: cover;
+}
+.float .articleimage {
+    float: left;
+}
+.flex {
+    display: flex;
+}
