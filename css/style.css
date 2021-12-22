@@ -9,9 +9,9 @@ header {
     float: right;
 }
 .nav-ul {
+    background-color: burlywood;
     display: inline-block;
     float: left;
-    background-color: burlywood;
 }
 .nav-li {
     display: inline-block;
