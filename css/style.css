@@ -20,15 +20,15 @@ header {
     clear: both;
 }
 .float::after {
-    content: "";
+    content: '';
     display: block;
     clear: left;
 }
 .articleimage {
-    float: left;
     height: 200px;
     width: 250px;
     object-fit: cover;
+    background-color: green;
 }
 .float .articleimage {
     float: left;
